@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000012066884758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000010458470810}
+  - component: {fileID: 114000013167695240}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000010458470810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012066884758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -100, y: -100, z: -100}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013167695240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012066884758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112db9926cfe547418cb18821a940561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DontDestoryOnLoad: 1
+  prefabsToPool:
+  - prefab: {fileID: 1000013915581558, guid: 31ccf751cbd074f7cad297d76eadc2d9, type: 3}
+    initialCapacity: 2
+  - prefab: {fileID: 1000010475086300, guid: e7ff1d6e354a0437cbb10ea8bc63a324, type: 3}
+    initialCapacity: 100
+  - prefab: {fileID: 1000010304883576, guid: e19e4c3e825564276942a58148ebdbe4, type: 3}
+    initialCapacity: 1
+  - prefab: {fileID: 1000011318176086, guid: 6cd14247ed6114aa1813008a62cb3f30, type: 3}
+    initialCapacity: 1
+  - prefab: {fileID: 1000010304883576, guid: a1e40899179eb4eb380dcdb0b3ca381a, type: 3}
+    initialCapacity: 20
